@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import {Navbar} from './shared/index'
+import BaseLayout  from './features/base-layout/base-layout'
+import Signin from './features/sign-in/sign-in';
 function App() {
   return (
-    <Navbar/>
+    <BaseLayout>
+      <Signin/>
+    </BaseLayout>
   );
 }
 
