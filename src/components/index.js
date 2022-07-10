@@ -1,5 +1,6 @@
-import { Button } from './button/button'
-
+import Button from './button/button'
+import Input from './input/Input'
 export {
-  Button
+  Button,
+  Input
 }

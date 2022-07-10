@@ -1,0 +1,11 @@
+
+.input-container {
+  @apply flex flex-col
+}
+.input-label {
+  @apply mb-[8px]
+}
+
+.input {
+ @apply border rounded h-[40px] p-[8px] focus:invalid:border-[#fffd77]
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import Input from '../../components/input/Input';
 
 export default function Signin() {
   return (
@@ -12,14 +13,16 @@ export default function Signin() {
             Al aceptar crear una cuenta en 100 Ladrillos aceptas nuestro <a className="text-[#3ca4fc]"> Aviso de Privacidad, Derechos Arco  </a>y nuestros <a className="text-[#3ca4fc]">Términos y Condiciones.</a>
           </p>
           <form action="" className='mt-[24px]'>
-            <div className='flex flex-col'>
-              <label className='mb-[8px]' >¿Cuál es tu correo electrónico?</label>
-              <input type="text" className='border rounded h-[40px] p-[8px]' placeholder='tu@correo.com' />
-            </div>
-            <div className='flex flex-col mt-[24px]'>
-              <label className='mb-[8px]'>Ingresa una contraseña</label>
-              <input type="text" className='border rounded h-[40px] p-[8px]' placeholder='Contraseña'/>
-            </div>
+            <Input 
+              type={'email'}
+              txtLabel={'¿Cuál es tu correo electrónico?'} 
+              placeholder={'tu@correo.com'}
+            />
+            <Input 
+              type={'password'}
+              txtLabel={'Ingresa una contraseña'} 
+              placeholder={'Contraseña'}
+            />
           </form>
           <div className='flex flex-col justify-center align-middle w-full mt-[24px]'>
             <div className="flex flex-row w-full justify-between">
