@@ -1,0 +1,4 @@
+
+.btn {
+  @apply text-[#ff5a60] px-[32px] py-[14px] rounded-[30px] transition ease-in-out delay-100 hover:bg-[#ff5a60] hover:text-[#fff] duration-300 mr-[24px]
+}
